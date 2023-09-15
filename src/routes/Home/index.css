@@ -1,0 +1,60 @@
+main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card-produto {
+    width: 250px;
+    border: 1px solid #999999;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #969292;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-produto img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-produto h1 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .card-produto p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .card-produto .preco-promocao {
+    color: red; /* Cor do preço em promoção */
+    font-weight: bold;
+  }
+  
+  .ver-detalhe {
+    display: block;
+    text-decoration: none;
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .ver-detalhe:hover {
+    background-color: #0056b3; 
+    color: #fff;
+  }

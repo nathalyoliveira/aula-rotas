@@ -1,0 +1,46 @@
+/* src/components/VisualizarAparelho.css (ou outro arquivo CSS de sua escolha) */
+
+/* Estilo para o contêiner principal */
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  /* Estilo para o card do aparelho */
+  .card-aparelho {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para a imagem do aparelho */
+  .img-container {
+    flex: 1;
+    text-align: center;
+    padding: 20px; /* Espaçamento interno para separar a imagem das informações */
+  }
+  
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilo para os detalhes do aparelho */
+  .details-container {
+    flex: 2;
+    padding: 20px; /* Espaçamento interno para separar os detalhes */
+  }
+  
+  /* Estilo para o título */
+  h1 {
+    font-size: 24px;
+  }
+  
+  /* Estilo para os detalhes do aparelho */
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
